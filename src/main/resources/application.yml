@@ -1,0 +1,9 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: https://auth.uzgps.uz:8443/auth/realms/spring-realm/protocol/openid-connect/certs
+
+server:
+  port: 9091
