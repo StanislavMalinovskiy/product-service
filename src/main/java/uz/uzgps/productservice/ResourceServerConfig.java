@@ -43,6 +43,8 @@ public class ResourceServerConfig {
         config.setAllowCredentials(true);
         config.addAllowedOrigin("http://192.168.1.104:8080");  // TODO: lock down before deploying
         config.addAllowedOrigin("http://192.168.1.104:9090");  // TODO: lock down before deploying
+        config.addAllowedOrigin("http://192.168.0.108:8080");  // TODO: lock down before deploying
+        config.addAllowedOrigin("http://192.168.0.108:9090");  // TODO: lock down before deploying
 //        config.addAllowedOrigin("http://localhost:8080");  // TODO: lock down before deploying
 //        config.addAllowedOrigin("http://localhost:9090");  // TODO: lock down before deploying
         config.addAllowedHeader("*");
